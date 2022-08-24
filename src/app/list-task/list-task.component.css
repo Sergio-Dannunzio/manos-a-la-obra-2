@@ -1,0 +1,27 @@
+
+ul{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-left: 0px;
+    list-style: none;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    width: 21%;
+    margin-top: 5px;
+    padding-left: 2px;
+    border: solid black 2px;
+}
+p{
+    width: 87%;
+    margin: 0px;
+    padding-top: 1px;
+}
+.completed{
+    text-decoration-line: line-through;
+}
+.crossOut{
+    text-decoration: line-through;
+}
